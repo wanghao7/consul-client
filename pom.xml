@@ -5,8 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>com.wanghao.springcloud.eureka.server</module>
+        <module>eureka-server</module>
         <module>consul-client</module>
+        <module>service-user-interface</module>
+        <module>service-user</module>
+        <module>service-order</module>
     </modules>
 
     <parent>
